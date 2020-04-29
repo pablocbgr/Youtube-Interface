@@ -1,0 +1,132 @@
+* {box-sizing: border-box;}
+
+html {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.topnav {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
+  max-width: 1920px;
+  background-color: #ffffff;
+}
+
+.guide { /*Guide Button*/
+  margin-top: 2px;
+  margin-left: 6.5px;
+}
+
+.youtube { /*Youtube*/
+  margin-top: 5px;
+  margin-left: 4px;
+}
+
+.search { /*Search Bar*/
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  color: #f0dede;
+  float: center;
+  padding: 5px;
+  margin-left: 445px;
+  margin-bottom: -2px;
+  font-size: 17px;
+  width: 575px
+
+
+}
+
+.loupe {
+  border: 0px solid #ffffff; 
+  background-color: #fff;
+  color: #f0dede;
+  padding: 0;
+  margin-top: 6px;
+  margin-bottom: -11px;
+  margin-left: -2;
+
+}
+
+.upload {
+  margin-left: 229px;
+  margin-bottom: 10px;
+}
+
+.apps {
+  margin-left: 13px;
+  margin-bottom: 8.5px;
+}
+
+.alerts {
+  margin-left: 13px;
+  margin-bottom: 6px;
+}
+
+.echo {
+  margin-right: 16px;
+  margin-left: 13px;
+  margin-top: 12px;
+}
+
+.lefty {
+  background: #ffffff;
+  min-width: 240px;
+  max-width: 240px;
+  min-height: 881px;
+  border-top: 12px solid #fff
+
+}
+
+.lefty > a{
+  display: grid;
+  max-height: 466px;
+  background-color: #ffffff;
+  padding: 14px;
+
+}
+
+.side {
+  margin-left: 10px;
+  margin-top: -9px;
+}
+
+.lefty > a:hover {
+  background-color: #f2f2f2;
+}
+
+.more {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 12px;
+  padding-top: 12px;
+}
+
+.more > a {
+  display: grid;
+  max-height: 466px;
+  background-color: #ffffff;
+  padding: 14px;
+
+}
+
+.more > a:hover {
+  background-color: #f2f2f2;
+}
+
+.video {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  display: inline-grid;
+  grid-column: 3/10;
+}
+
+.video > p {
+  position: absolute;
+}
