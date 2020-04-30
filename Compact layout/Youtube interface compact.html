@@ -4,22 +4,13 @@
 		<link rel="stylesheet" type="text/css" href="layout-compact.css">
 	</head>
 	<body>
-		<script type="text/javascript">
-			function empty() {
-				var x;
-				x = document.getElementById("search").value;
-				if (x == "") {
-					return false;
-			    }
-			    return true;
-			}
-		</script>
+		<script type="text/javascript" src="search_bar.js"></script>
 		<div class="topnav">
 			<a class= "guide" href="#guide-icon"><img src="images/guide.png" class= "guide" border="0"></a>
 			<a class= "youtube" href="https://www.youtube.com/?gl=ES&hl=es"><img src="images/youtubeclean.png" class="youtube" width="100" height="38" border="0"></a>
 			<form action="http://www.youtube.com/results" method="get" target="_blank">
 				<input  id="search" class="search" name="search_query" type="text" maxlength="128" placeholder="Search"/>
-				<button class="loupe" type="submit" onClick="return empty()"><img class="loupe" src="images/search.png" width="65" height="" border="0"></img></button>
+				<button class="loupe" type="submit" onClick="return non_empty()"><img class="loupe" src="images/search.png" width="65" height="" border="0"></img></button>
 			</form>
 			<div>
 				<a class="upload" href=""><img src="images/upload.png" class="upload" border="0"></a>
@@ -40,26 +31,11 @@
 			<a href="https://www.youtube.com/feed/subscriptions">
 				<img src="images/subs.png" id="subs" class="side">
 				<span>EXAMPLE TEXT</span>
-
 			</a>
-			<div class="more">
-				<a href="https://www.youtube.com/feed/library">
-					<img src="images/library.png" class="side">
-					<span>EXAMPLE TEXT</span>
-				</a>
-				<a href="https://www.youtube.com/feed/history">
-					<img src="images/history.png" class="side">
-					<span>EXAMPLE TEXT</span>
-				</a>
-				<a href="https://www.youtube.com/playlist?list=WL">
-					<img src="images/watch.png" class="side">
-					<span>EXAMPLE TEXT</span>
-				</a>
-				<a href="https://www.youtube.com/playlist?list=LLr5HHbpQYACTeXc8y0Mppfg">
-					<img src="images/liked.png" class="side">
-					<span>EXAMPLE TEXT</span>
-				</a>
-			</div>
+			<a href="https://www.youtube.com/feed/library">
+				<img src="images/library.png" class="side">
+				<span>EXAMPLE TEXT</span>
+			</a>
 		</div>
 		<div class="video">
 			<p></p>
