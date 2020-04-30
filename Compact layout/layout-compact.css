@@ -17,6 +17,7 @@ body {
   grid-gap: 0px;
   max-width: 1920px;
   background-color: #ffffff;
+  width: -webkit-fill-available;
 }
 
 .guide { /*Guide Button*/
@@ -55,7 +56,7 @@ body {
 }
 
 .upload {
-  margin-left: 229px;
+  margin-left: 100px;
   margin-bottom: 10px;
 }
 
