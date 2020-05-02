@@ -24,7 +24,6 @@ body {
   margin-top: 2px;
   margin-left: 6.5px;
   border: 0;
-
 }
 
 .youtube { /*Youtube*/
@@ -45,8 +44,6 @@ body {
   margin-bottom: -2px;
   font-size: 17px;
   width: 300px;
-
-
 }
 
 .loupe {
@@ -59,19 +56,16 @@ body {
   margin-left: -3;
   width: 65;
   border: 0;
-
 }
 
 .upload {
   margin-left: 100px;
   margin-bottom: 10px;
-
 }
 
 .apps {
   margin-left: 13px;
   margin-bottom: 8.5px;
-
 }
 
 .alerts {
@@ -94,7 +88,6 @@ body {
   width: 72px;
   height: 881px;
   border-top: 12px solid #fff
-
 }
 
 .lefty > a{
@@ -102,7 +95,6 @@ body {
   max-height: 466px;
   background-color: #ffffff;
   padding: 14px;
-
 }
 
 .side {
@@ -125,23 +117,10 @@ body {
   max-height: 466px;
   background-color: #ffffff;
   padding: 14px;
-
 }
 
 .more > a:hover {
   background-color: #f2f2f2;
-}
-
-.video {
-  position: absolute;
-  left: 100px;
-  top: 150px;
-  display: inline-grid;
-  grid-column: 3/10;
-}
-
-.video > p {
-
 }
 
 .lefty div {
@@ -182,4 +161,18 @@ body {
 .lefty a:active {
   text-decoration: none;
   color: black;
+}
 
+.main_frame {  /*add css so the sons doesnt need margins*/
+  position: absolute;
+  display: inline-block;
+  left: 95px;
+  top: 75px;
+}
+
+.main_frame > p {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 550;
+  text-overflow: ellipsis;
+}
