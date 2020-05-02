@@ -163,16 +163,19 @@ body {
   color: black;
 }
 
-.main_frame {  /*add css so the sons doesnt need margins*/
+.main_frame {
   position: absolute;
   display: inline-block;
-  left: 95px;
-  top: 75px;
+  width: 982px;
+  height: 869px;
+  margin-left: 100px;
+  margin-top: -868px;
 }
 
-.main_frame > p {
+.recomended {
   font-family: Roboto, Arial, sans-serif;
   font-size: 19px;
   font-weight: 550;
+  margin-left: 10px;
   text-overflow: ellipsis;
 }
