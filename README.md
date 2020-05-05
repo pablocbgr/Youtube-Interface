@@ -1,0 +1,1 @@
+I created this project to learn when I was just starting HTML, CSS and Javascript.
