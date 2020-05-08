@@ -3,4 +3,4 @@ I created this project to learn when I was just starting HTML, CSS and Javascrip
 
 This is what it looks like.
 
-<img scr="https://imgur.com/4wR87Bi.jpeg"/>
+<img scr="https://i.imgur.com/4wR87Bi.jpg"/>
